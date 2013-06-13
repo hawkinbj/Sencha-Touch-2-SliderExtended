@@ -55,6 +55,7 @@ Ext.define('Ext.field.SliderExtended', {
         reference: 'helperInput',
         tag: 'input',
         type: 'number',
+		step: self.initialConfig.increment,
         cls: Ext.baseCSSPrefix + 'slider-helper-input'
       }
       ]
